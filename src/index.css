@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #11382B;
+  --color-brand-green-light: #1B4D3C;
+  --color-brand-green-dark: #0B241C;
+  --color-brand-sage: #52795D;
+  --color-brand-sage-light: #DCE8DE;
+  --color-brand-sage-pale: #F0F5F1;
+  --color-brand-terracotta: #B86B35;
+  --color-brand-terracotta-dark: #9A5424;
+  --color-brand-terracotta-light: #F7EAE1;
+  --color-brand-cream: #FAF8F4;
+  --color-brand-cream-dark: #F0ECE1;
+  --color-brand-slate: #2C3830;
+  --color-brand-sand: #E6DFD3;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  background-color: #FAF8F4;
+  color: #2C3830;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for cart drawer and menu lists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E6DFD3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B86B35;
+}

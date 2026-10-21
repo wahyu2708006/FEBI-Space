@@ -1,0 +1,6 @@
+{
+  "name": "FEBI Space — Cafe • Creative • Ideas",
+  "description": "Website interaktif FEBI Space untuk melihat menu unggulan, pemesanan online, reservasi meja, dan eksplorasi ruang kreatif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
